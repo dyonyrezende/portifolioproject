@@ -4432,6 +4432,22 @@ input[type=button].btn-block {
   border-bottom: 1px solid #dee2e6;
 }
 
+.nav-item-new{
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding-right: 50;
+    padding-left: 50;
+
+}
+
+.nav-item-new:hover{
+
+    text-decoration: none;
+
+
+}
+
 .nav-tabs .nav-item {
   margin-bottom: -1px;
 }
@@ -4498,12 +4514,14 @@ input[type=button].btn-block {
 }
 
 .navbar {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.5rem 1rem;
+    text-align: center;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 1rem;
+
 }
 
 .navbar .container,
@@ -4541,8 +4559,20 @@ input[type=button].btn-block {
   list-style: none;
 }
 
+
+#home {
+    display: table;
+    height: 100%;
+    position: relative;
+    overflow:auto;
+    width: 100%;
+    background-size: cover;
+    filter: brightness(30%);
+
+}
+
 .navbar-nav .nav-link {
-  padding-right: 0;
+  padding-right: 0];
   padding-left: 0;
 }
 

@@ -10,13 +10,19 @@
 
 <body>
 
-<main>
-    <button type="button" class="btn btn-success">Success</button>
-</main>
+
+    @hasSection('body')
+        @yield('body')
+    @endif
+
+
 
 
 <footer>
+<div class="container">
 
+    TESTE
+</div>
 </footer>
 
 </body>
