@@ -3,8 +3,8 @@
 
         <div class="text-center">
             <ul class="navbar-nav mt-2">
-                <li class="nav-item active">
-                    <a class="nav-item-new" href="#">Home</a>
+                <li class="nav-item">
+                    <a id="active" class="nav-item-new" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-item-new" href="#">CRUD</a>

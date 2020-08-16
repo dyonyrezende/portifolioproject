@@ -4432,24 +4432,6 @@ input[type=button].btn-block {
   border-bottom: 1px solid #dee2e6;
 }
 
-.nav-item-new{
-    color: white;
-    font-size: large;
-    text-align: center;
-    padding-right: 70;
-    padding-left: 70;
-    opacity: 1;
-
-}
-
-.nav-item-new:hover{
-    color: white;
-    text-decoration: none;
-    opacity: 0.5;
-    transition-duration: 0.5s;
-
-
-}
 
 .nav-tabs .nav-item {
   margin-bottom: -1px;
@@ -10931,3 +10913,44 @@ a.text-dark:focus {
   }
 }
 
+
+.nav-item-new{
+    color: #e3e3e3;
+    font-size: large;
+    text-align: center;
+    margin-right: 70;
+    margin-left: 70;
+    opacity: 1;
+}
+
+#active{
+    color: #ffc332;
+    font-size: large;
+    text-align: center;
+    margin-right: 70;
+    font-weight: bold;
+    margin-left: 70;
+    opacity: 1;
+
+}
+
+#active:hover{
+    color: #ffc332;
+    text-decoration: none;
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+
+.nav-item-new:hover{
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+.footer-style{
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 300px;
+}

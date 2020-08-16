@@ -10,19 +10,27 @@
 
 <body>
 
+    <div style="background-image: url({{url(asset('images/bg-image.jpg'))}}); background-repeat: repeat-y; height:100%; width:100%; background-size: cover">
 
-    @hasSection('body')
-        @yield('body')
-    @endif
+        @component('components.navbar')
+        @endcomponent
+
+        <hr class="hr-color">
+
+            @hasSection('content')
+                @yield('content')
+            @endif
+    </div>
 
 
 
 
-<footer>
-<div class="container">
 
-    TESTE
-</div>
+<footer class="footer-style">
+    <div class="container">
+
+        TESTE
+    </div>
 </footer>
 
 </body>
