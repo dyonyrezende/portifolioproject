@@ -4,22 +4,26 @@
 
 
     <header>
-        @component('components.navbar')
-        @endcomponent
+
     </header>
+
         <main>
-            <div id="home" style="background:url({{url('images/bg-image.jpg')}}) no-repeat center center fixed">
+            <div style="background-image: url({{url(asset('images/bg-image.jpg'))}}); background-repeat: repeat-y; height:100%; width:100%; background-size: cover">
+
+                @component('components.navbar')
+                @endcomponent
+
+                <hr class="hr-color">
+
+
                 <div class="container">
-                    BEM VINDO
 
                 </div>
-            </div>
-
-            <div class="container mt-5" >
 
             </div>
-
         </main>
+
+
 
 
 </body>

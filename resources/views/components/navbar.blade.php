@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-light bg-dark">
+<nav class="navbar navbar-expand-md navbar-light bg-transparent">
     <div class="mx-auto d-md-flex d-block flex-md-nowrap">
 
         <div class="text-center">

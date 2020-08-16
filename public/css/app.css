@@ -4436,14 +4436,17 @@ input[type=button].btn-block {
     color: white;
     font-size: large;
     text-align: center;
-    padding-right: 50;
-    padding-left: 50;
+    padding-right: 70;
+    padding-left: 70;
+    opacity: 1;
 
 }
 
 .nav-item-new:hover{
-
+    color: white;
     text-decoration: none;
+    opacity: 0.5;
+    transition-duration: 0.5s;
 
 
 }
@@ -4560,20 +4563,14 @@ input[type=button].btn-block {
 }
 
 
-#home {
-    display: table;
-    height: 100%;
-    position: relative;
-    overflow:auto;
-    width: 100%;
-    background-size: cover;
-    filter: brightness(30%);
-
-}
-
 .navbar-nav .nav-link {
   padding-right: 0];
   padding-left: 0;
+}
+
+.hr-color{
+    border-color: #95999c;
+
 }
 
 .navbar-nav .dropdown-menu {
