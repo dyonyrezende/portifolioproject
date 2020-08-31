@@ -10,7 +10,7 @@
 
 <body>
 
-    <div style="background-image: url({{url(asset('images/bg-image.jpg'))}}); background-repeat: repeat-y; height:100%; width:100%; background-size: cover">
+
 
         @component('components.navbar')
         @endcomponent
@@ -20,18 +20,19 @@
             @hasSection('content')
                 @yield('content')
             @endif
-    </div>
+
+        <footer class="footer-style">
+            <div class="container">
+                <div class="footer-title">
+                    Tecnologias e Softwares utilizados na criação deste Website.
+                </div>
+            </div>
+        </footer>
 
 
 
 
 
-<footer class="footer-style">
-    <div class="container">
-
-        TESTE
-    </div>
-</footer>
 
 </body>
 </html>

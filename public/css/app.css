@@ -10915,7 +10915,7 @@ a.text-dark:focus {
 
 
 .nav-item-new{
-    color: #e3e3e3;
+    color: white;
     font-size: large;
     text-align: center;
     margin-right: 70;
@@ -10924,18 +10924,18 @@ a.text-dark:focus {
 }
 
 #active{
-    color: #ffbd5c;
+    color: white;
     font-size: large;
     text-align: center;
     margin-right: 70;
-    font-weight: bold;
     margin-left: 70;
+    font-style: italic;
     opacity: 1;
 
 }
 
 #active:hover{
-    color: #ffc332;
+
     text-decoration: none;
     opacity: 0.5;
     transition-duration: 0.5s;
@@ -10945,8 +10945,8 @@ a.text-dark:focus {
 .nav-item-new:hover{
     color: white;
     text-decoration: none;
-    opacity: 0.5;
     transition-duration: 0.5s;
+    opacity: 0.5;
 }
 
 .footer-style{
@@ -10986,4 +10986,42 @@ a.text-dark:focus {
     font-family: "Berlin Sans FB";
     font-size: 16px;
     color: white;
+}
+
+.form-title{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.label-form{
+    color: #F5F5F5;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width 100%;
+    height: 100%;
+
+}
+
+.img-background{
+    width: 100%;
+    height: 100%;
+    background: url("../images/bg-image.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+
+}
+
+.footer-title{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Berlin Sans FB";
+    font-size: 16px;
+
 }
