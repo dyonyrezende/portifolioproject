@@ -11022,6 +11022,13 @@ a.text-dark:focus {
     text-align: center;
     padding-top: 20px;
     font-family: "Berlin Sans FB";
-    font-size: 16px;
+    font-size: 18px;
+
+
+}
+
+.img-footer{
+    width:60%;
+    height:auto;
 
 }

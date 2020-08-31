@@ -25,6 +25,9 @@
             <div class="container">
                 <div class="footer-title">
                     Tecnologias e Softwares utilizados na criação deste Website.
+                    <div class="mt-4">
+                        <img src="{{url(asset('images/softwares.png'))}}" class="img-footer"/>
+                    </div>
                 </div>
             </div>
         </footer>
