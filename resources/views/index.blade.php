@@ -3,8 +3,10 @@
 <body class="img-background">
 
 @section('content')
-    <div class="container" style="height: 300px">
-        Dyony Rezende
+    <div class="container">
+        <div id="logoAnimation">
+
+        </div>
     </div>
 
     <div class="content-profile">
@@ -24,7 +26,7 @@
 
     <div class="container mt-5 mb-5">
         <div class="form-title">Entre em contato</div>
-    <form class="mt-4">
+    <form class="mt-4" id="formContact">
         <div class="form-group row-cols-xl-3">
             <label class="label-form" for="nameForm">Nome</label>
             <input type="text" class="form-control" id="nameForm" placeholder="Digite seu Nome">
@@ -38,10 +40,18 @@
             <textarea class="form-control" id="messageForm" placeholder="Deixe aqui sua mensagem" rows="5"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="reset" class="btn btn-danger">Cancelar</button>
     </form>
     </div>
 
 
 @endsection
+
+<script src="{{url(asset('media/lottie.js'))}}"></script>
+<script src="{{url(asset('media/animation.js'))}}"></script>
+
+
+
+
 
 </body>

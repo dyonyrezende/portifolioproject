@@ -11032,3 +11032,10 @@ a.text-dark:focus {
     height:auto;
 
 }
+
+#logoAnimation{
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+
+}
