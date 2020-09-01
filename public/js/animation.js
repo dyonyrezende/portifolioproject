@@ -7,3 +7,6 @@ var animation = bodymovin.loadAnimation({
     path: "../media/logo3.json"
 
 })
+
+
+

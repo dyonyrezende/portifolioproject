@@ -3,11 +3,11 @@
 <body class="img-background">
 
 @section('content')
-    <div class="container">
+
         <div id="logoAnimation">
 
         </div>
-    </div>
+
 
     <div class="content-profile">
             <div class="container">
@@ -44,13 +44,10 @@
     </form>
     </div>
 
+        <script src="{{url(asset('js/lottie.js'))}}"></script>
+        <script src="{{url(asset('js/animation.js'))}}"></script>
 
 @endsection
-
-<script src="{{url(asset('media/lottie.js'))}}"></script>
-<script src="{{url(asset('media/animation.js'))}}"></script>
-
-
 
 
 
