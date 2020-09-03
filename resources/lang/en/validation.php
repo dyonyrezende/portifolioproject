@@ -130,8 +130,14 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'nameForm' => [
+            'required' => 'O campo nome é obrigatório',
+        ],
+        'emailForm' => [
+            'required' => 'O campo email é obrigatório',
+        ],
+        'messageForm' => [
+            'required' => 'O campo de mensagem é obrigatório',
         ],
     ],
 

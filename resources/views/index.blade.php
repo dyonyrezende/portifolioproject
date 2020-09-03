@@ -50,21 +50,41 @@
     <!-- contact form  -->
         <div class="container mt-5 mb-5">
             <div class="form-title">Entre em contato</div>
-        <form class="mt-4" id="formContact">
+        <form class="mt-4" id="formContact" action="/" method="post">
+
+            @csrf
+
             <div class="form-group row-cols-xl-3">
                 <label class="label-form" for="nameForm">Nome</label>
-                <input type="text" class="form-control" id="nameForm" placeholder="Digite seu Nome">
+                <input type="text" class="form-control @error('nameForm') is-invalid @enderror" id="nameForm" name="nameForm" placeholder="Digite seu Nome">
+                @error('nameForm')
+                    <div class="mt-1">
+                        <small class="text-error">{{$message}}</small>
+                    </div>
+                @enderror
             </div>
             <div class="form-group row-cols-xl-3">
                 <label class="label-form" for="emailForm">Email</label>
-                <input type="email" class="form-control" id="emailForm" placeholder="Digite seu Email">
+                <input type="email" class="form-control @error('emailForm') is-invalid @enderror" id="emailForm" name="emailForm" placeholder="Digite seu Email">
+                @error('emailForm')
+                <div class="mt-1">
+                    <small class="text-error">{{$message}}</small>
+                </div>
+                @enderror
             </div>
             <div class="form-group">
                 <label class="label-form" for="messageForm">Mensagem</label>
-                <textarea class="form-control" id="messageForm" placeholder="Deixe aqui sua mensagem" rows="5"></textarea>
+                <textarea class="form-control @error('messageForm') is-invalid @enderror" id="messageForm" name="messageForm" placeholder="Deixe aqui sua mensagem" rows="5"></textarea>
+                @error('messageForm')
+                <div class="mt-1">
+                    <small class="text-error">{{$message}}</small>
+                </div>
+                @enderror
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
             <button type="reset" class="btn btn-danger">Cancelar</button>
+
+
         </form>
         </div>
 

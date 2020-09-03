@@ -10747,6 +10747,7 @@ a.text-warning:focus {
   color: #e3342f !important;
 }
 
+
 a.text-danger:hover,
 a.text-danger:focus {
   color: #ae1c17 !important;
@@ -11082,4 +11083,8 @@ a.text-dark:focus {
     margin-top: -50px;
     text-shadow: 0 0 6px #000000;
 
+}
+
+.text-error {
+    color: #ffed4a !important;
 }
