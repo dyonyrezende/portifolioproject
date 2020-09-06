@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Mail\ContactFormMail;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 class ContactForm extends Controller
@@ -18,7 +17,13 @@ class ContactForm extends Controller
 
         Mail::to('test@test.com')->send(new ContactFormMail($data));
 
-        return redirect('/');
+        $confirm = 1;
+        return view('index')->with(['confirm' => $confirm]);
 
+    }
+
+    public function index(){
+        $confirm = 0;
+        return view('index')->with(['confirm' => $confirm]);
     }
 }
