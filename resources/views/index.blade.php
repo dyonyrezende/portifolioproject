@@ -91,8 +91,8 @@
         </form>
         </div>
 
-
-@if($confirm == 1)
+    <!-- Modal -->
+    @if($confirm == 1)
     <div class="modal" id="modalEmail" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">

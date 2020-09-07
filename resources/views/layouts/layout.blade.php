@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>My Portfolio</title>
     <meta http-equiv="Content-Language" content="pt-br">

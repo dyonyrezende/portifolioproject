@@ -10,7 +10,7 @@
                     <a class="nav-item-new" href="#">CRUD</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-item-new" href="#">Contato</a>
+                    <a class="nav-item-new" href="#formContact">Contato</a>
                 </li>
 
                 </li>

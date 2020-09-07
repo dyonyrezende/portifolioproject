@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'ContactForm@index');
+Route::get('/', 'MainController@index');
 
 Route::post('/', 'ContactForm@store');
 

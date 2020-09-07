@@ -49,6 +49,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    scroll-behavior: smooth;
 }
 
 article,
@@ -11017,6 +11018,12 @@ a.text-dark:focus {
     background-size: cover;
     background-repeat: repeat-y;
 
+}
+
+
+
+html {
+    scroll-behavior: smooth;
 }
 
 .footer-title{
