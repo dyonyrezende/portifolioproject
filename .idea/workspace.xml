@@ -20,15 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6e0559a-e0b2-4b1b-8a5c-2592dd548447" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/crud.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/auth.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../projetodyony/resources/views/alugados.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../projetodyony/resources/views/alugados.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../projetodyony/resources/views/alugar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../projetodyony/resources/views/alugar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../projetodyony/resources/views/cars.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../projetodyony/resources/views/cars.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../projetodyony/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../projetodyony/resources/views/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -165,11 +173,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dyony\OneDrive\Área de Trabalho\PHP STUFF\Projetos\projetoportifolio\projetoportifolio\resources\views\layouts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dyony\OneDrive\Área de Trabalho\PHP STUFF\Projetos\projetoportifolio\projetoportifolio\public\js" />
       <recent name="C:\Users\dyony\OneDrive\Área de Trabalho\PHP STUFF\Projetos\projetoportifolio\projetoportifolio\public\media" />
@@ -194,7 +205,7 @@
       <workItem from="1597524566869" duration="8478000" />
       <workItem from="1598634356729" duration="48680000" />
       <workItem from="1599266465175" duration="1218000" />
-      <workItem from="1599429157637" duration="8953000" />
+      <workItem from="1599429157637" duration="19156000" />
     </task>
     <servers />
   </component>
@@ -218,6 +229,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="344" key="#Notifications/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1599324731164" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599499337537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599499337537" />
+    <state x="699" y="222" key="RollbackChangesDialog" timestamp="1599499757773">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="699" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599499757773" />
     <state x="317" y="291" width="998" height="708" key="SettingsEditor" timestamp="1599173004041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

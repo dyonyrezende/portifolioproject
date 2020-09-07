@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+Auth::routes();
 
 /*
 |--------------------------------------------------------------------------
@@ -17,4 +18,4 @@ Route::get('/', 'MainController@index');
 
 Route::post('/', 'ContactForm@store');
 
-
+Route::get('/crud', 'MainController@login');

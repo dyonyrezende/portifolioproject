@@ -10603,6 +10603,7 @@ button.bg-dark:focus {
   text-align: center !important;
 }
 
+
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important;
@@ -10920,17 +10921,39 @@ a.text-dark:focus {
     color: white;
     font-size: large;
     text-align: center;
-    margin-right: 70;
-    margin-left: 70;
+    margin-right: 70px;
+    margin-left: 70px;
     opacity: 1;
+}
+
+.nav-item-auth{
+    color: #ffed4a;
+    font-size: large;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    opacity: 1;
+}
+
+.nav-item-auth:hover{
+    color: #ba9c40;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    opacity: 1;
+}
+
+.loginbox{
+
+    margin-top: 5%;
+
 }
 
 #active{
     color: white;
     font-size: large;
     text-align: center;
-    margin-right: 70;
-    margin-left: 70;
+    margin-right: 70px;
+    margin-left: 70px;
     font-style: italic;
     opacity: 1;
 
